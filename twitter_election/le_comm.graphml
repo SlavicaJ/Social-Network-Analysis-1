@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_twitter_type" for="node" attr.name="twitter_type" attr.type="string"/>
+  <key id="v_id" for="node" attr.name="id" attr.type="string"/>
+  <key id="e_Edge Label" for="edge" attr.name="Edge Label" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <key id="e_id" for="edge" attr.name="id" attr.type="string"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_label">#maga</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#maga</data>
+    </node>
+    <node id="n1">
+      <data key="v_label">#lasvagasshooting</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#lasvagasshooting</data>
+    </node>
+    <node id="n2">
+      <data key="v_label">#potus</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#potus</data>
+    </node>
+    <node id="n3">
+      <data key="v_label">#liberals</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#liberals</data>
+    </node>
+    <node id="n4">
+      <data key="v_label">#guncontrol</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#guncontrol</data>
+    </node>
+    <node id="n5">
+      <data key="v_label">#moroninchief</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#moroninchief</data>
+    </node>
+    <node id="n6">
+      <data key="v_label">#bancnn</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#bancnn</data>
+    </node>
+    <node id="n7">
+      <data key="v_label">#termlimits</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#termlimits</data>
+    </node>
+    <node id="n8">
+      <data key="v_label">#termlimitsnow</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#termlimitsnow</data>
+    </node>
+    <node id="n9">
+      <data key="v_label">#lockherup</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#lockherup</data>
+    </node>
+    <node id="n10">
+      <data key="v_label">#dccriminals</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#dccriminals</data>
+    </node>
+    <node id="n11">
+      <data key="v_label">#wednesdaywisdom</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#wednesdaywisdom</data>
+    </node>
+    <node id="n12">
+      <data key="v_label">#jimmykimmel</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#jimmykimmel</data>
+    </node>
+    <node id="n13">
+      <data key="v_label">#kushner</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#kushner</data>
+    </node>
+    <node id="n14">
+      <data key="v_label">#pence</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#pence</data>
+    </node>
+    <node id="n15">
+      <data key="v_label">#dreamers</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#dreamers</data>
+    </node>
+    <node id="n16">
+      <data key="v_label">#msnbc</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#msnbc</data>
+    </node>
+    <node id="n17">
+      <data key="v_label">#joearpaio</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#joearpaio</data>
+    </node>
+    <node id="n18">
+      <data key="v_label">#azfamily</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#azfamily</data>
+    </node>
+    <node id="n19">
+      <data key="v_label">#newsmedia</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#newsmedia</data>
+    </node>
+    <node id="n20">
+      <data key="v_label">#cnn</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#cnn</data>
+    </node>
+    <node id="n21">
+      <data key="v_label">#buildthewall</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#buildthewall</data>
+    </node>
+    <node id="n22">
+      <data key="v_label">#guncontolnow</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#guncontolnow</data>
+    </node>
+    <node id="n23">
+      <data key="v_label">#russiancollusion</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#russiancollusion</data>
+    </node>
+    <node id="n24">
+      <data key="v_label">#gameofthrones</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#gameofthrones</data>
+    </node>
+    <node id="n25">
+      <data key="v_label">#winterishere</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#winterishere</data>
+    </node>
+    <node id="n26">
+      <data key="v_label">#thelefthandpath</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#thelefthandpath</data>
+    </node>
+    <node id="n27">
+      <data key="v_label">#division</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#division</data>
+    </node>
+    <node id="n28">
+      <data key="v_label">#donaldtrump</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#donaldtrump</data>
+    </node>
+    <node id="n29">
+      <data key="v_label">#godblesspresidenttrump</data>
+      <data key="v_twitter_type">Hashtag</data>
+      <data key="v_id">#godblesspresidenttrump</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">4</data>
+      <data key="e_id">2</data>
+    </edge>
+    <edge source="n0" target="n2">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">594</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">299</data>
+    </edge>
+    <edge source="n0" target="n4">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">4</data>
+      <data key="e_id">440</data>
+    </edge>
+    <edge source="n0" target="n5">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">4</data>
+      <data key="e_id">375</data>
+    </edge>
+    <edge source="n0" target="n6">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">421</data>
+    </edge>
+    <edge source="n0" target="n7">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">425</data>
+    </edge>
+    <edge source="n6" target="n7">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">419</data>
+    </edge>
+    <edge source="n0" target="n8">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">428</data>
+    </edge>
+    <edge source="n6" target="n8">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">420</data>
+    </edge>
+    <edge source="n7" target="n8">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">424</data>
+    </edge>
+    <edge source="n0" target="n9">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">431</data>
+    </edge>
+    <edge source="n6" target="n9">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">422</data>
+    </edge>
+    <edge source="n7" target="n9">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">426</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">429</data>
+    </edge>
+    <edge source="n0" target="n10">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">432</data>
+    </edge>
+    <edge source="n6" target="n10">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">423</data>
+    </edge>
+    <edge source="n7" target="n10">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">427</data>
+    </edge>
+    <edge source="n8" target="n10">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">430</data>
+    </edge>
+    <edge source="n9" target="n10">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">433</data>
+    </edge>
+    <edge source="n0" target="n11">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">8</data>
+      <data key="e_id">447</data>
+    </edge>
+    <edge source="n4" target="n11">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">4</data>
+      <data key="e_id">436</data>
+    </edge>
+    <edge source="n0" target="n12">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">4</data>
+      <data key="e_id">462</data>
+    </edge>
+    <edge source="n4" target="n12">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">4</data>
+      <data key="e_id">439</data>
+    </edge>
+    <edge source="n11" target="n12">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">4</data>
+      <data key="e_id">446</data>
+    </edge>
+    <edge source="n0" target="n13">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">4</data>
+      <data key="e_id">466</data>
+    </edge>
+    <edge source="n4" target="n13">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">4</data>
+      <data key="e_id">442</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">4</data>
+      <data key="e_id">449</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">4</data>
+      <data key="e_id">464</data>
+    </edge>
+    <edge source="n0" target="n14">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">467</data>
+    </edge>
+    <edge source="n4" target="n14">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">443</data>
+    </edge>
+    <edge source="n11" target="n14">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">450</data>
+    </edge>
+    <edge source="n12" target="n14">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">465</data>
+    </edge>
+    <edge source="n13" target="n14">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">470</data>
+    </edge>
+    <edge source="n0" target="n15">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">739</data>
+    </edge>
+    <edge source="n0" target="n16">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">706</data>
+    </edge>
+    <edge source="n11" target="n16">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">712</data>
+    </edge>
+    <edge source="n0" target="n17">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">630</data>
+    </edge>
+    <edge source="n0" target="n18">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">632</data>
+    </edge>
+    <edge source="n17" target="n18">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">631</data>
+    </edge>
+    <edge source="n2" target="n19">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">648</data>
+    </edge>
+    <edge source="n0" target="n20">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">705</data>
+    </edge>
+    <edge source="n2" target="n20">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">658</data>
+    </edge>
+    <edge source="n11" target="n20">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">710</data>
+    </edge>
+    <edge source="n16" target="n20">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">708</data>
+    </edge>
+    <edge source="n19" target="n20">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">650</data>
+    </edge>
+    <edge source="n0" target="n21">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">4</data>
+      <data key="e_id">689</data>
+    </edge>
+    <edge source="n0" target="n22">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">691</data>
+    </edge>
+    <edge source="n21" target="n22">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">690</data>
+    </edge>
+    <edge source="n0" target="n23">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">707</data>
+    </edge>
+    <edge source="n11" target="n23">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">713</data>
+    </edge>
+    <edge source="n16" target="n23">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">711</data>
+    </edge>
+    <edge source="n20" target="n23">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">709</data>
+    </edge>
+    <edge source="n0" target="n24">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">743</data>
+    </edge>
+    <edge source="n21" target="n24">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">742</data>
+    </edge>
+    <edge source="n0" target="n25">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">746</data>
+    </edge>
+    <edge source="n21" target="n25">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">745</data>
+    </edge>
+    <edge source="n24" target="n25">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">740</data>
+    </edge>
+    <edge source="n0" target="n26">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">748</data>
+    </edge>
+    <edge source="n21" target="n26">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">747</data>
+    </edge>
+    <edge source="n24" target="n26">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">741</data>
+    </edge>
+    <edge source="n25" target="n26">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">744</data>
+    </edge>
+    <edge source="n0" target="n27">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">750</data>
+    </edge>
+    <edge source="n0" target="n28">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">752</data>
+    </edge>
+    <edge source="n27" target="n28">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">749</data>
+    </edge>
+    <edge source="n0" target="n29">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">754</data>
+    </edge>
+    <edge source="n27" target="n29">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">751</data>
+    </edge>
+    <edge source="n28" target="n29">
+      <data key="e_Edge Label"></data>
+      <data key="e_weight">2</data>
+      <data key="e_id">753</data>
+    </edge>
+  </graph>
+</graphml>
