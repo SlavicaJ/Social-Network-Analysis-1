@@ -1,0 +1,102 @@
+ ---
+ title: "Antony and Cleopatra"
+ author: "_Charles Schumacher_"
+ date: "_9/25/18_"
+ output: html_document
+---
+
+```{r}
+library(knitr)
+path <- "path"
+setwd(path)
+read_chunk("antony.R")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+  
+### Loading  libraries
+Incorporating GGally library to get the ggcorr function.
+  
+```{r C1, results="hide", warning=FALSE, message=FALSE}
+```
+
+### Loading the Antony and Cleopatra data 
+This network is a bipartite projection of a character-scene
+network from Shakespeare's _Antony and Cleopatra_. Two characters are connected if they speak in the same scene.
+
+```{r C2}
+```
+
+### Filter the network
+
+Delete edges of weight 1 and then remove isolated (degree 0) nodes. Use ```decompose``` to identify the different components in the network. Note that this function returns a list of the component graphs. Use ```sapply``` and ```vcount``` to calculate the number of vertices in each component. Identify the largest (giant) component and use just this component for the rest of the analysis in this assignment.
+
+```{r C3}
+```
+
+### Plot the network 
+
+Compute a Fructerman-Reingold layout (```layout_with_fr```) in a separate step so that we can create comparable visualizations later.
+
+```{r C4}
+
+```
+
+### Compute 5 types of centrality and create a data frame 
+
+Degree, weighted degree, betweenness, closeness, eigenvector, page rank. Add to this data frame columns containing the name and nationality information for each character. Note that the edge weights are automatically used by all the centrality measures except degree, but these are interpreted as distances for betweenness and closeness, which is incorrect for this network. 
+
+```{r C5}
+
+```
+
+
+### Display correlation plot via ggcorr
+
+```{r C6}
+```
+
+### Plot two versions of the network side by side 
+
+In the first, size the nodes by eigenvector centrality. In the second, size the nodes by betweenness centrality. Scale the values so the largest and smallest nodes are approximately the same size in each plot. Make sure the minimum size is not too small.
+
+```{r C7, fig.height=8, fig.width=15}
+
+```
+
+### Plot betweenness distribution by nationality 
+Note that to use ```fill=```, you will have to change the nationality attribute into a factor. Use ```geom_density``` since betweenness is real-valued.
+
+```{r C8}
+
+```
+
+### Plot eigenvector centrality distribution by nationality. 
+Use a violin plot as an alternative to the comparative density from Step 7.
+
+```{r C9}
+
+```
+
+### Subset the centrality data. 
+Subset of the data frame that includes only the information for Antony and Cleopatra. 
+
+```{r C10}
+
+```
+
+### Calculate differences. 
+Cleopatra's centrality measures are all lower than Antony's. Calculate the percentage difference between all the measures relative to Antony (Cleo - Ant)/Ant. 
+
+```{r C11}
+
+```
+
+### Interpretation 
+
+Question: For what centrality measures are the differences between Antony and Cleopatra highest and lowest? Based on the visualizations and other analyses above, why are these the largest differences observed for these characters? What does this difference say about the structure of the play and the appearance of different characters?
+
+_The percent difference in centrality measures is largest between Antony and Cleopatra for betweenness centrality (Cleopatra=0.077 and Antony=0.428, Cleopatra is 82.1% lower), and smallest for eigenvector centrality (Cleopatra=0.881 and Antony=1.000, Cleopatra is 11.8% lower). The large difference in betweenness centrality values for the two characters is likely because of the way that the play is structured: Cleopatra is in Egypt, and Antony is in Rome where the majority of the play takes place and there are more characters. Because Antony is connected to more characters and the nature of the play shifting location from Egypt to Rome and many of the minor characters not interacting, he ends up being a vertex in the shortest path for several minor characters. In the filtered main component, Cleopatra is a little bit more isolated and doesn't interact with as many of the Roman characters directly, which is why her betweenness score is much lower. Eigenvector centrality measures importance based on the importance/popularity of other nodes it is connected to, and factors in how close the connections are to the popular nodes. The eigenvector centrality scores are high for both characters because they are the main characters of the story and thus interact with most of the minor characters (aka they are the most popular), in addition to directly interacting with each other. This is what causes their eigenvector centrality scores to be close and very high._ 
+
+
+
