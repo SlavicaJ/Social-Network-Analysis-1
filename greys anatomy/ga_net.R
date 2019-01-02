@@ -1,18 +1,14 @@
-# Lab 2 solution
-
 # ---- C1 ----
 library(network)
 library(ergm)
 library(intergraph)
 library(sand)
 
-# Thanks to Benjamin Lind for the data and examples
-
 # ---- C2 ----
 path <- "PATH"
 
 setwd(path)
-source("lab2-utils.R")
+source("ga_net-utils.R")
 set.seed(20180515)
 
 ga.gr <- read.graph("ga.graphml", format="graphml")
@@ -67,11 +63,11 @@ plot(m2.gof)
 ga.m3 <- ergm(ga.net ~ edges + nodemix("sex", base=-2)+ degree(1),
               control=control.ergm(MCMC.burnin=50000,
                                    MCMC.interval=5000))
-save(ga.m3, file="lab2-m3.Rdata")
+save(ga.m3, file="ga_net-m3.Rdata")
 
 
 # ---- C12load ----
-load("lab2-m3.Rdata")
+load("ga_net-m3.Rdata")
 summary(ga.m3)
 # AIC 302
 
@@ -91,11 +87,11 @@ ga.m4 <- ergm(ga.net ~ edges + nodemix("sex", base=-2) + degree(1)
               + absdiff("birthyear"),
               control=control.ergm(MCMC.burnin=50000,
                                    MCMC.interval=5000))
-save(ga.m4, file="lab2-m4.Rdata")
+save(ga.m4, file="ga_net-m4.Rdata")
 
 
 # ---- C15load ----
-load("lab2-m4.Rdata")
+load("ga_net-m4.Rdata")
 summary(ga.m4)
 
 # AIC 278
@@ -117,11 +113,11 @@ ga.m5 <- ergm(ga.net ~ edges + nodemix("sex", base=-2)
               control=control.ergm(MCMC.burnin=100000,
                                    MCMC.interval=5000,
                                    MCMC.samplesize=2048))
-save(ga.m5, file="lab2-m5.Rdata")
+save(ga.m5, file="ga_net-m5.Rdata")
 
 
 # ---- C18load ----
-load("lab2-m5.Rdata")
+load("ga_net-m5.Rdata")
 summary(ga.m5)
 
 
