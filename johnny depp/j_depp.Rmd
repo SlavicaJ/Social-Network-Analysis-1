@@ -1,0 +1,140 @@
+---
+title: "Johnny Depp Costars"
+author: "Charles Schumacher"
+date: "Fall 2018"
+output: html_document
+---
+
+## Working with DBpedia data
+### Bipartite networks and ego networks
+
+```{r}
+library(knitr)
+setwd("path")
+
+read_chunk("j_depp.R")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Loading libraries
+
+```{r C1, results="hide", warning=FALSE, message=FALSE}
+```
+
+### Loading the data
+
+Load a bipartite network built from the DBpedia co-starring data. For the purposes of this assignment, the data was gathered starting from the actor Johnny Depp. 
+
+The data is in edgelist and attribute form, so we have to  shape it into a network first. The two files are
+
+- depp_edges.csv
+- depp_nodes.csv
+
+```{r, C2}
+
+```
+
+Converting to graph form.
+
+```{r, C3}
+
+```
+
+### Looking at attributes 
+
+List the vertex attributes and some attributes are node-type specific. Movies have budgets, but not actors. Actors have "decades" rather than specific ages.
+
+```{r, C4}
+
+```
+
+### Projection
+
+Compute the actor-actor and movie-movie projections and print the ```summary``` information for each.
+
+```{r, C5}
+
+```
+
+### Fixing the attributes 
+
+Removing the irrelevant attributes from two networks.
+
+```{r, C6}
+
+```
+
+For the rest of the investigation, we will concentrate on the actor-actor network.
+
+### Plot the edge weight distribution
+
+```{r, C7a}
+
+```
+
+```{r, C7b}
+
+```
+
+### Filter out edges of weight = 1 
+
+Create a new network with the edges of weight 1 removed.
+
+```{r, C8}
+
+```
+
+### Remove singletons / isolates (nodes of degree == 0) 
+
+Removing edges leaves some nodes disconnected from the network so we remove them also. Create another new network with the isolates removed. 
+
+```{r, C9}
+
+```
+
+
+Note: _Using the final filtered version of the network from step 9 for the rest of the assignment._
+
+### Plot the network
+
+The graph is now simplified enough that it can be visualized. Using the Kamada-Kawai layout: layout=layout_with_kk.
+
+```{r, C10}
+
+```
+
+### Weighted degree
+
+Compute a histogram of the weighted degree.
+
+```{r, C11a}
+
+```
+
+```{r, C11b}
+
+```
+
+
+### Compute ego networks
+
+Names of the two actors (other than Johnny Depp) with highest weighted degree. These are actors that co-starred together most often. 
+
+```{r, C12}
+
+```
+
+### Plot the ego networks side-by-side
+
+```{r, C13}
+
+```
+
+### Analysis
+
+In reducing the size of the network through edge and vertex filtering so that it is easier to visualize, what information about the original actor-actor network has been lost? What consequences does this have for our interpretation of the filtered version of the network?
+
+Answer:
+
+_In step 8 we remove all of the edges between vertices which have a weight of 1. In doing this we remove all connections between actors/actresses who were only in a single movie together. Next in step 9 we remove all of the vertices which have a degree of 0. Because we already removed edges with weight of 1 and there weren't any orphan vertices to begin with (because everyone in the dataset was in at least 1 movie with Johnny Depp), this means that singleton nodes represent actors who only had one overlapping movie with Johnny Depp and only overlapped with other actors/actresses in the network 1 time at most. A consequence of this is that we can start to get actors in the filtered network who are no longer connected to Johnny Depp (because they only shared one movie with him) but have connections to other actors/actresses in the network (because they had a weight of 2 or more with other actors/actresses they did not become singleton nodes). The resulting filtered network thus shows relationships of actors who were in at least one movie with Johnny Depp and were also in at least 2 movies with at least one other actor/actress in the network, as well as a few isolated communities of actors/actresses which are connected to each other still but aren't connected to the main component with Johnny Depp. This differs from the original network because we don't directly consider the relationships between people who only overlapped with Johnny Depp once anymore unless they were in 2 or more movies with another actor in the network. _
+
