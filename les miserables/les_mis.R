@@ -37,11 +37,11 @@ print(g)
 lm_secf <- delete_edges(lm_sec, E(lm_sec)[E(lm_sec)$weight == 1])
 
 # ---- C7 ----
-# Calculate the set of connected components using the "decompose" function
+# Calculate the set of connected components using decompose
 cmpnts <- decompose(lm_secf)
 
 # ---- C8 ----
-# Extract the subgraph containing just the giant component. Use this for rest of assignment
+# Extract the subgraph containing just the giant component
 main_comp <- cmpnts[[which.max(sapply(cmpnts, vcount))]]
 
 # ---- C9 ----
