@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_birthyear" for="node" attr.name="birthyear" attr.type="double"/>
+  <key id="v_na" for="node" attr.name="na" attr.type="boolean"/>
+  <key id="v_position" for="node" attr.name="position" attr.type="string"/>
+  <key id="v_race" for="node" attr.name="race" attr.type="string"/>
+  <key id="v_season" for="node" attr.name="season" attr.type="double"/>
+  <key id="v_sex" for="node" attr.name="sex" attr.type="string"/>
+  <key id="v_sign" for="node" attr.name="sign" attr.type="string"/>
+  <key id="v_vertex.names" for="node" attr.name="vertex.names" attr.type="string"/>
+  <key id="e_na" for="edge" attr.name="na" attr.type="boolean"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_birthyear">1967</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">White</data>
+      <data key="v_season">1</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Libra</data>
+      <data key="v_vertex.names">addison</data>
+    </node>
+    <node id="n1">
+      <data key="v_birthyear">1949</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Non-Staff</data>
+      <data key="v_race">Black</data>
+      <data key="v_season">2</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Leo</data>
+      <data key="v_vertex.names">adele</data>
+    </node>
+    <node id="n2">
+      <data key="v_birthyear">1969</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">White</data>
+      <data key="v_season">6</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Pisces</data>
+      <data key="v_vertex.names">altman</data>
+    </node>
+    <node id="n3">
+      <data key="v_birthyear">1981</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">White</data>
+      <data key="v_season">7</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Libra</data>
+      <data key="v_vertex.names">amelia</data>
+    </node>
+    <node id="n4">
+      <data key="v_birthyear">1976</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">White</data>
+      <data key="v_season">5</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Leo</data>
+      <data key="v_vertex.names">arizona</data>
+    </node>
+    <node id="n5">
+      <data key="v_birthyear">1975</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Non-Staff</data>
+      <data key="v_race">White</data>
+      <data key="v_season">3</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Gemini</data>
+      <data key="v_vertex.names">ava</data>
+    </node>
+    <node id="n6">
+      <data key="v_birthyear">1981</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Resident</data>
+      <data key="v_race">Black</data>
+      <data key="v_season">6</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Leo</data>
+      <data key="v_vertex.names">avery</data>
+    </node>
+    <node id="n7">
+      <data key="v_birthyear">1969</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">Black</data>
+      <data key="v_season">1</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Virgo</data>
+      <data key="v_vertex.names">bailey</data>
+    </node>
+    <node id="n8">
+      <data key="v_birthyear">1972</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Other</data>
+      <data key="v_race">Black</data>
+      <data key="v_season">6</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Aquarius</data>
+      <data key="v_vertex.names">ben</data>
+    </node>
+    <node id="n9">
+      <data key="v_birthyear">1972</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Non-Staff</data>
+      <data key="v_race">White</data>
+      <data key="v_season">7</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Cancer</data>
+      <data key="v_vertex.names">burton</data>
+    </node>
+    <node id="n10">
+      <data key="v_birthyear">1950</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">Other</data>
+      <data key="v_season">8</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Capricorn</data>
+      <data key="v_vertex.names">catherine</data>
+    </node>
+    <node id="n11">
+      <data key="v_birthyear">1954</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Chief</data>
+      <data key="v_race">Black</data>
+      <data key="v_season">1</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Scorpio</data>
+      <data key="v_vertex.names">chief</data>
+    </node>
+    <node id="n12">
+      <data key="v_birthyear">1944</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">White</data>
+      <data key="v_season">3</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Taurus</data>
+      <data key="v_vertex.names">colin</data>
+    </node>
+    <node id="n13">
+      <data key="v_birthyear">1966</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Non-Staff</data>
+      <data key="v_race">White</data>
+      <data key="v_season">2</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Taurus</data>
+      <data key="v_vertex.names">denny</data>
+    </node>
+    <node id="n14">
+      <data key="v_birthyear">1966</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">White</data>
+      <data key="v_season">1</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Capricorn</data>
+      <data key="v_vertex.names">derek</data>
+    </node>
+    <node id="n15">
+      <data key="v_birthyear">1957</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">White</data>
+      <data key="v_season">1</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Virgo</data>
+      <data key="v_vertex.names">ellis.grey</data>
+    </node>
+    <node id="n16">
+      <data key="v_birthyear">1970</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Non-Staff</data>
+      <data key="v_race">White</data>
+      <data key="v_season">2</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Cancer</data>
+      <data key="v_vertex.names">finn</data>
+    </node>
+    <node id="n17">
+      <data key="v_birthyear">1969</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Resident</data>
+      <data key="v_race">White</data>
+      <data key="v_season">1</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Scorpio</data>
+      <data key="v_vertex.names">grey</data>
+    </node>
+    <node id="n18">
+      <data key="v_birthyear">1967</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">White</data>
+      <data key="v_season">2</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Gemini</data>
+      <data key="v_vertex.names">hahn</data>
+    </node>
+    <node id="n19">
+      <data key="v_birthyear">1975</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Non-Staff</data>
+      <data key="v_race">White</data>
+      <data key="v_season">1</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Sagittarius</data>
+      <data key="v_vertex.names">hank</data>
+    </node>
+    <node id="n20">
+      <data key="v_birthyear">1978</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Resident</data>
+      <data key="v_race">White</data>
+      <data key="v_season">1</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Sagittarius</data>
+      <data key="v_vertex.names">izzie</data>
+    </node>
+    <node id="n21">
+      <data key="v_birthyear">1970</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Resident</data>
+      <data key="v_race">White</data>
+      <data key="v_season">1</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Cancer</data>
+      <data key="v_vertex.names">karev</data>
+    </node>
+    <node id="n22">
+      <data key="v_birthyear">1980</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Resident</data>
+      <data key="v_race">White</data>
+      <data key="v_season">6</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Libra</data>
+      <data key="v_vertex.names">kepner</data>
+    </node>
+    <node id="n23">
+      <data key="v_birthyear">1982</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Resident</data>
+      <data key="v_race">White</data>
+      <data key="v_season">3</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Aries</data>
+      <data key="v_vertex.names">lexi</data>
+    </node>
+    <node id="n24">
+      <data key="v_birthyear">1971</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Nurse</data>
+      <data key="v_race">Black</data>
+      <data key="v_season">7</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Capricorn</data>
+      <data key="v_vertex.names">lloyd</data>
+    </node>
+    <node id="n25">
+      <data key="v_birthyear">1984</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">White</data>
+      <data key="v_season">7</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Cancer</data>
+      <data key="v_vertex.names">lucy</data>
+    </node>
+    <node id="n26">
+      <data key="v_birthyear">1979</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Intern</data>
+      <data key="v_race">White</data>
+      <data key="v_season">4</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">NA</data>
+      <data key="v_vertex.names">megan</data>
+    </node>
+    <node id="n27">
+      <data key="v_birthyear">1985</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Intern</data>
+      <data key="v_race">White</data>
+      <data key="v_season">4</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Gemini</data>
+      <data key="v_vertex.names">mostow</data>
+    </node>
+    <node id="n28">
+      <data key="v_birthyear">1952</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Non-Staff</data>
+      <data key="v_race">White</data>
+      <data key="v_season">3</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Leo</data>
+      <data key="v_vertex.names">mrs..seabury</data>
+    </node>
+    <node id="n29">
+      <data key="v_birthyear">1965</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Non-Staff</data>
+      <data key="v_race">White</data>
+      <data key="v_season">3</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Leo</data>
+      <data key="v_vertex.names">nancy</data>
+    </node>
+    <node id="n30">
+      <data key="v_birthyear">1982</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Nurse</data>
+      <data key="v_race">White</data>
+      <data key="v_season">1</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Capricorn</data>
+      <data key="v_vertex.names">olivia</data>
+    </node>
+    <node id="n31">
+      <data key="v_birthyear">1973</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Resident</data>
+      <data key="v_race">White</data>
+      <data key="v_season">1</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Aries</data>
+      <data key="v_vertex.names">o.malley</data>
+    </node>
+    <node id="n32">
+      <data key="v_birthyear">1973</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Chief</data>
+      <data key="v_race">White</data>
+      <data key="v_season">5</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Leo</data>
+      <data key="v_vertex.names">owen</data>
+    </node>
+    <node id="n33">
+      <data key="v_birthyear">1965</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Other</data>
+      <data key="v_race">White</data>
+      <data key="v_season">7</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Leo</data>
+      <data key="v_vertex.names">perkins</data>
+    </node>
+    <node id="n34">
+      <data key="v_birthyear">1986</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Intern</data>
+      <data key="v_race">White</data>
+      <data key="v_season">4</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">NA</data>
+      <data key="v_vertex.names">pierce</data>
+    </node>
+    <node id="n35">
+      <data key="v_birthyear">1963</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">Black</data>
+      <data key="v_season">1</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Leo</data>
+      <data key="v_vertex.names">preston</data>
+    </node>
+    <node id="n36">
+      <data key="v_birthyear">1981</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Resident</data>
+      <data key="v_race">White</data>
+      <data key="v_season">6</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Aquarius</data>
+      <data key="v_vertex.names">reed</data>
+    </node>
+    <node id="n37">
+      <data key="v_birthyear">1972</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">White</data>
+      <data key="v_season">2</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Scorpio</data>
+      <data key="v_vertex.names">sloan</data>
+    </node>
+    <node id="n38">
+      <data key="v_birthyear">1984</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Non-Staff</data>
+      <data key="v_race">Other</data>
+      <data key="v_season">2</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Gemini</data>
+      <data key="v_vertex.names">steve</data>
+    </node>
+    <node id="n39">
+      <data key="v_birthyear">1959</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Non-Staff</data>
+      <data key="v_race">White</data>
+      <data key="v_season">2</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Taurus</data>
+      <data key="v_vertex.names">susan.grey</data>
+    </node>
+    <node id="n40">
+      <data key="v_birthyear">1955</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Non-Staff</data>
+      <data key="v_race">White</data>
+      <data key="v_season">2</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Leo</data>
+      <data key="v_vertex.names">thatch.grey</data>
+    </node>
+    <node id="n41">
+      <data key="v_birthyear">1975</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Attending</data>
+      <data key="v_race">Other</data>
+      <data key="v_season">2</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Virgo</data>
+      <data key="v_vertex.names">torres</data>
+    </node>
+    <node id="n42">
+      <data key="v_birthyear">1970</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Non-Staff</data>
+      <data key="v_race">Black</data>
+      <data key="v_season">2</data>
+      <data key="v_sex">M</data>
+      <data key="v_sign">Leo</data>
+      <data key="v_vertex.names">tucker</data>
+    </node>
+    <node id="n43">
+      <data key="v_birthyear">1971</data>
+      <data key="v_na">false</data>
+      <data key="v_position">Resident</data>
+      <data key="v_race">Other</data>
+      <data key="v_season">1</data>
+      <data key="v_sex">F</data>
+      <data key="v_sign">Cancer</data>
+      <data key="v_vertex.names">yang</data>
+    </node>
+    <edge source="n0" target="n14">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n0" target="n21">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n0" target="n37">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n1" target="n11">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n2" target="n9">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n2" target="n32">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n2" target="n33">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n2" target="n37">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n3" target="n37">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n4" target="n41">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n5" target="n21">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n6" target="n22">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n6" target="n23">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n7" target="n8">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n7" target="n24">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n7" target="n42">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n10" target="n11">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n11" target="n15">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n12" target="n43">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n13" target="n20">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n14" target="n17">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n15" target="n40">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n16" target="n17">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n17" target="n31">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n17" target="n38">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n18" target="n41">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n19" target="n20">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n20" target="n21">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n20" target="n31">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n21" target="n22">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n21" target="n23">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n21" target="n25">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n21" target="n28">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n21" target="n30">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n21" target="n41">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n23" target="n37">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n26" target="n27">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n26" target="n34">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n29" target="n37">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n30" target="n31">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n31" target="n41">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n32" target="n43">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n35" target="n43">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n36" target="n37">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n37" target="n41">
+      <data key="e_na">false</data>
+    </edge>
+    <edge source="n39" target="n40">
+      <data key="e_na">false</data>
+    </edge>
+  </graph>
+</graphml>
